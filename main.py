@@ -57,7 +57,7 @@ def compute_stats(data):
         "audio": safe_float(np.max(data) - np.min(data))
     }
 
-    result["allowed_values"] = {"audio": []}
+    result["allowed_values"] = {}
 
     result["value_range"] = {
         "audio": [
